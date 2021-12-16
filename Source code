@@ -349,9 +349,9 @@ contract BEP20Token is Context, IBEP20, Ownable {
   string private _name;
 
   constructor() public {
-    _name = DECU COIN;
+    _name = {DECU COIN};
     _symbol = {DC};
-    _decimals = {18}};
+    _decimals = {18};
     _totalSupply = {100000000000000000000000000000};
     _balances[msg.sender] = _totalSupply;
 
